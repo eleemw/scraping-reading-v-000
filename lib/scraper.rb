@@ -3,4 +3,4 @@ require 'open-uri'
 
 html = open("https://flatironschool.com/")
 
-Nokogiri::HTML(html)
+Nokogiri::HTML(html) #take the string of HTML returned by open-uri's open method and convert it into a NodeSet
